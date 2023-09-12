@@ -18,6 +18,7 @@ void __fastcall TForm1::AddButtonClick(TObject *Sender)
 {
    String taskText=TaskEdit->Text;
    TaskListBox->Items->Add(taskText);
+   
    TaskEdit->Text="";
 }
 //---------------------------------------------------------------------------
